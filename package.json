@@ -4,6 +4,10 @@
   "description": "API for fastapi-auth",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
