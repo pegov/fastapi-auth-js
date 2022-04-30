@@ -1,0 +1,36 @@
+{
+  "name": "@pegov/fastapi-auth",
+  "version": "0.9.0",
+  "description": "API for fastapi-auth",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "format": "eslint . --ext .ts --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pegov/fastapi-auth-js.git"
+  },
+  "keywords": [
+    "fastapi-auth"
+  ],
+  "author": "pegov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pegov/fastapi-auth-js/issues"
+  },
+  "homepage": "https://github.com/pegov/fastapi-auth-js#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "axios": "^0.27.2",
+    "eslint": "^8.14.0",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "axios": "*"
+  }
+}
