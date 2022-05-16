@@ -1,6 +1,7 @@
 export const INVALID_CAPTCHA = "invalid captcha"
 export const EMAIL_ALREADY_EXISTS = "email already exists"
 export const USERNAME_ALREADY_EXISTS = "username already exists"
+export const SAME_EMAIL = "same email"
 export const SAME_USERNAME = "same username"
 export const PASSWORD_ALREADY_EXISTS = "password already exists"
 export const PASSWORD_NOT_SET = "password not set"
