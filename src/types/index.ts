@@ -5,6 +5,12 @@ import type IMeApi from "./me"
 import type IPasswordApi from "./password"
 import type ITokenApi from "./token"
 
+export * from "./admin"
+export * from "./auth"
+export * from "./email"
+export * from "./me"
+export * from "./password"
+
 interface IApi {
 	admin: IAdminApi
 	auth: IAuthApi
