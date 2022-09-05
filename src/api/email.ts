@@ -3,6 +3,7 @@ import type { AxiosInstance } from "axios"
 import type IApi from "../types/email"
 
 const getApi = (axios: AxiosInstance, prefix: string): IApi => {
+  prefix = prefix + "/email"
   return {
     requestVerification: async () => {
       await axios.post(`${prefix}/verify`)
